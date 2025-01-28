@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            transition: all .2s linear;
+        }
+        .container{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #ccc;
+        }
+        .emailSignature{
+            width: 700px;
+            background: #2c3e50;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            box-shadow: 0 5px 10px #0007;
+            margin: 20px;
+        }
+        .emailSignature .image{
+            width: 260px;
+            text-align: center;
+            padding: 60px 0;
+            background: #0005;
+            clip-path: polygon(0 0, 80% 0, 100% 15%, 100% 85%, 76% 100%, 0 100%);
+        }
+        .emailSignature .image img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            box-shadow: 0 0 0 10px coral;
+            object-fit: cover;
+        }
+        .emailSignature .content{
+            display: flex;
+            padding: 0 10px;
+        }
+        .emailSignature .content .contactIcons{
+            background: #fff;
+            margin: 0 10px;
+        }
+        .emailSignature .content .contactIcons img{
+            width: 25px;
+            height: 25px;
+            margin: 10px 10px;
+            display: block;
+        }
+        .emailSignature .content .contactIcons img:first-child{
+            margin-bottom: 70px;
+        }
+        .emailSignature .content .contactInfo .name{
+            font-size: 29px;
+            padding: 5px 0;
+            color: #fff;
+            text-transform: capitalize;
+        }
+        .emailSignature .content .contactInfo .name span{
+            color: coral;
+        }
+        .emailSignature .content .contactInfo .title{
+            display: block;
+            font-style: 18px;
+            color: #ccc;
+            padding-bottom: 28px;
+        }
+        .emailSignature .content .contactInfo a{
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            color: #aaa;
+            padding: 6px 0;
+        }
+        .emailSignature .socialIcons{
+            height: 275px;
+            background: #fff;
+            padding: 0 7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: column;
+            margin-left: auto;
+        }
+        .emailSignature .socialIcons a img{
+            width: 27px;
+            height: 27px;
+            margin: 7px;
+        }
+
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head> 
+<body>
+    <div class="container">
+        <div class="emailSignature">
+            <div class="image">
+                <img src="Images/Elias.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <div class="contactIcons">
+                    <img src="Images/user.png" alt="Elias-Muhammod's-Name">
+                    <img src="Images/home.png" alt="Elias-Muhammod's-Home">
+                    <img src="Images/phone-call.png" alt="Elias-Muhammod's-Phone">
+                    <img src="Images/email.png" alt="Elias-Muhammod's-Email">
+                    <img src="Images/global.png" alt="Elias-Muhammod's-Website">
+                </div>
+
+                <div class="contactInfo">
+                    <h3 class="name">Elias <span>Muhammod</span></h3>
+                    <span class="title">Web Developer</span>
+                    <a href="#" target="_blank">Haimchar, Chandpur, Bangladesh</a>
+                    <a href="tel:+8801611685084" target="_blank">01611685084</a>
+                    <a href="mailto:eliasmuhammodbd@gmail.com" target="_blank">eliasmuhammodbd@gmail.com</a>
+                    <a href="http//www.elias360.ml" target="_blank">www.elias360.ml</a>
+                </div>
+            </div>
+
+            <div class="socialIcons">
+                <a href="https://www.facebook.com/EliasMuhammodBd/" target="_blank"><img src="Images/facebook (1).png" alt="Elias-Muhammod's-Facebook"></a>
+                <a href="https://www.linkedin.com/in/eliasmuhammod/" target="_blank"><img src="Images/linkedin (1).png" alt="Elias-Muhammod's-Linkedin"></a>
+                <a href="https://twitter.com/EliasMuhammod/" target="_blank"><img src="Images/twitter-sign.png" alt="Elias-Muhammod's-Twitter"></a>
+                <a href="https://www.instagram.com/eliasmuhammod/" target="_blank"><img src="Images/instagram (1).png" alt="Elias-Muhammod's-Instagram"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
